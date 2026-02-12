@@ -34,7 +34,8 @@ public class BankingProgram {
                 default -> System.out.println("Invalid choice,Please choose between (1 - 4)");
             }
 
-            System.out.println("Thankyou have a nice day");
+            System.out.println("--------------------------------");
+            System.out.println("Thank you have a nice day");
             System.out.println("--------------------------------");
 
 

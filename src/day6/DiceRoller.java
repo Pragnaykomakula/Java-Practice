@@ -17,8 +17,8 @@ public class DiceRoller {
        if(numOfDice > 0){
            for(int i = 0;i < numOfDice ; i++){
                int roll = rc.nextInt(1,7);
-               printDie(roll);
                System.out.println("you have rolled: "+ roll);
+               printDie(roll);
                System.out.println();
                total += roll;
 

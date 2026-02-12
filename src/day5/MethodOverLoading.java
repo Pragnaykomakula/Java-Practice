@@ -10,10 +10,15 @@ public class MethodOverLoading {
 
 
     }static int area(int side){
+
         return side * side;
-    }static int area(int length , int breadth){
+    }
+    static int area(int length , int breadth){
+
         return length * breadth;
-    }static double area(double radius){
+    }
+    static double area(double radius){
+
         return 3.14 * radius * radius;
     }
 
